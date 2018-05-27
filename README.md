@@ -8,7 +8,7 @@ OS Compiled in:
 - Ubuntu 16.04
 
 ## Running the game
-Starting a new game: `./WordJumble inputfile.txt` <br>
+Starting a new game: `./WordJumble textfile.txt` <br>
 Returning to a game: `./WordJumble` <br>
    ###### NOTE: You cannot return to a game you haven't started or quit from.
    
@@ -24,7 +24,7 @@ Returning to a game: `./WordJumble` <br>
 
 ****
 
-I have provided `inputfile.txt` with the highest difficulty being 12 letters. You may edit or create or your list of words as long as it follows these conditions:
+I have provided `textfile.txt` with the highest difficulty being 12 letters. You may edit or create or your list of words as long as it follows these conditions:
 - Distinction between each adjacent level is one letter. You cannot advance from a level of 5 letters to a level of 7.<br>
 - First level must be a minimum of 3 letters. Program will not work if there is a level with 2 letters.<br>
 - This program does not know if the words in the textfile are dictionary words or not. It will read a word and erase any characters that are not from a-z. It will remove capital letters, numbers, and nother notations. <br>
