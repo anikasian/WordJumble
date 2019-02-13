@@ -34,4 +34,4 @@ I have provided `textfile.txt` with the highest difficulty being 12 letters. You
 		    - http://google.com will be taken as httpgooglecom <br>
         
 ## Bugs
-Program does not handle whitespace. If you type a space right after your guess, it will result in a segfault. If there is a segfault just run the test again by typing any one of the two commands above.
+Program does not handle whitespace. If you type a space right after your guess, it will result in a segfault. If there is a segfault just run the test again by typing any one of the two commands above in 'Running Game'.
